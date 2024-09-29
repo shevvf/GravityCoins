@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class MenuUIManager : MonoBehaviour
 {
-    [field: SerializeField] private List<Button> MenuButtons { get; set; }
     [field: SerializeField] private Button Close { get; set; }
+    [field: SerializeField] private List<Button> MenuButtons { get; set; }
     [field: SerializeField] private List<GameObject> MenuPanels { get; set; }
 
     private GameObject lastPanel;
